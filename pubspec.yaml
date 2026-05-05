@@ -1,0 +1,55 @@
+name: bayan_sulu_kids
+description: KamBot - My Talking KamBot virtual pet game for Bayan Sulu Kids
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.1
+
+  # Local storage
+  shared_preferences: ^2.2.2
+
+  # Animations
+  lottie: ^3.1.0
+  animated_text_kit: ^4.2.2
+
+  # Audio
+  audioplayers: ^6.0.0
+
+  # QR Scanner
+  mobile_scanner: ^5.1.0
+
+  # Confetti
+  confetti: ^0.7.0
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Haptic feedback
+  vibration: ^2.0.0
+
+  # Screenshot
+  screenshot: ^3.0.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/animations/
